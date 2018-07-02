@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1dcaff</color>
+    <color name="colorPrimaryDark">#49ddfd</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="gradientStart">#1dcaff</color>
+    <color name="gradientEnd">#1dcaff</color>-
+    <color name="lables">#000000</color>
+    <color name="margin">#D3D3D3</color>
+    <color name="profileheader">#2D4551</color>
+    <color name="profilepictureBorder">#07E8AF</color>
+    <color name="darkgreen">#006400</color>
+ </resources>

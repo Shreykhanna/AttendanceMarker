@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_height="match_parent"
+android:layout_width="match_parent"
+android:layout_marginTop="64dp"
+android:id="@+id/constraintlayout">
+<ScrollView
+    android:id="@+id/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:fillViewport="true"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:background="@color/profileheader">
+            <ImageView
+                android:id="@+id/profile_picture"
+                android:layout_width="220dp"
+                android:layout_height="220dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside" />
+
+            <Button
+                android:id="@+id/button_changepicture"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignBottom="@+id/tv_firstname"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/cameraicon" />
+            <TextView
+                android:id="@+id/tv_firstname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/profile_picture"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+            <TextView
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/lables"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Email Id"/>
+            <EditText
+                android:id="@+id/tv_emailid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/email"
+                android:background="@color/transparent"
+                android:cursorVisible="true"
+                android:enabled="false"
+                android:fontFamily="@font/roboto"
+                android:singleLine="true"
+                android:textColor="@color/lables"
+                android:textSize="20sp" />
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_below="@id/tv_emailid"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/margin"/>
+            <Button
+                android:id="@+id/button_editemailid"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/editbutton" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+                <TextView
+                    android:id="@+id/mobileno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/lables"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Mobile no."/>
+
+            <EditText
+                android:id="@+id/tv_mobilenumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/mobileno"
+                android:background="@color/transparent"
+                android:cursorVisible="true"
+                android:enabled="false"
+                android:fontFamily="@font/roboto"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textColor="@color/lables"
+                android:textSize="20sp" />
+                <View
+                    android:layout_below="@id/tv_mobilenumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/margin"/>
+            <Button
+                android:id="@+id/button_editmobilenumber"
+                android:background="@drawable/editbutton"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+                <TextView
+                    android:id="@+id/age"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textColor="@color/lables"
+                    android:fontFamily="@font/roboto_bold"
+                    android:text="Age"/>
+
+            <EditText
+                android:id="@+id/tv_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/age"
+                android:background="@color/transparent"
+                android:cursorVisible="true"
+                android:enabled="false"
+                android:fontFamily="@font/roboto"
+                android:inputType="number"
+                android:singleLine="true"
+                android:textColor="@color/lables"
+                android:textSize="20sp" />
+                <View
+                    android:layout_width="wrap_content"
+                    android:layout_height="0.5dp"
+                    android:layout_below="@+id/tv_age"
+                    android:layout_marginTop="15dp"
+                    android:background="@color/margin"/>
+            <Button
+                android:id="@+id/button_editage"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:background="@drawable/editbutton"
+                android:layout_alignParentTop="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp">
+            <TextView
+                android:id="@+id/designation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Designation"
+                android:fontFamily="@font/roboto_bold"
+                android:textColor="@color/lables"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/tv_designation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/designation"
+                android:background="@color/transparent"
+                android:cursorVisible="true"
+                android:enabled="false"
+                android:fontFamily="@font/roboto"
+                android:inputType="textPersonName"
+                android:singleLine="true"
+                android:textColor="@color/lables"
+                android:textSize="20sp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="15dp"
+                android:layout_below="@id/tv_designation"
+                android:background="@color/margin" />
+            <Button
+                android:id="@+id/button_editdesignation"
+                android:background="@drawable/editbutton"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="50dp"
+            android:paddingLeft="50dp"
+            android:layout_marginTop="20dp">
+            <Button
+                android:id="@+id/button_updatedetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/updateprofilebutton"
+                android:text="@string/update"
+                android:textColor="@color/lables"
+                android:textSize="16sp"
+                android:visibility="invisible">
+            </Button>
+  </RelativeLayout>
+</LinearLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

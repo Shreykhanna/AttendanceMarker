@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">AttendanceMarker</string>
+    <string name="name">Name</string>
+    <string name="last_name">Last name</string>
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="dob">DOB</string>
+    <string name="designation">Designation</string>
+    <string name="gender">Gender</string>
+    <string name="age">Age</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="email_id">Email Id</string>
+    <string name="sign_up">SignUp Now</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="register_yourself">Register Yourself</string>
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+    <string name="login">Login Now</string>
+    <string name="submit">Submit</string>
+    <string name="change_password">Change Password</string>
+    <string name="update">Update</string>
+    <string name="totalleaves">Total Leaves : </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="no_geocoder_available">No geocoder available</string>
+    <string name="fetch_address">Fetch address</string>
+    <string name="address_found">Address found</string>
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_location_data_provided">No location data provided</string>
+    <string name="service_not_available">Sorry, the service is not available</string>
+    <string name="invalid_lat_long_used">Invalid latitude or longitude used</string>
+    <string name="permission_rationale">Location permission is needed for core functionality</string>
+    <string name="permission_denied_explanation">Permission was denied, but is needed for core
+        functionality.</string>
+    <string name="settings">Settings</string>
+</resources>
